@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EB5C47;
+  color: whitesmoke;
+}
+
+table.a {
+  width: full;
+  border-color: wheat;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #CC0066;
+  padding: 10px;
+}
+
+.judul {
+  background-color:  #70001f;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+a:hover {
+color:rgb(121, 74, 13);
+}
+
+footer {
+  background-color: #70001f;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  object-position: absolute;
+}
